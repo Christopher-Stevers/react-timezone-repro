@@ -1,4 +1,4 @@
-Repro for https://github.com/ndom91/react-timezone-select/issues/84
+# Repro for https://github.com/ndom91/react-timezone-select/issues/84
 
 When attempt to pass a classNames prop to the TimezoneSelect component the expected styles changes within the component aren't occurring. Since I'm using tailwind it becomes a bit of an issue as I now need to write custom css for the select component.
 I looked into the package a bit and looks like its due to the timezone-select package having an outdated version of react-select.
